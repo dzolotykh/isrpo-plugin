@@ -14,8 +14,16 @@
   "contributes": {
     "commands": [
       {
-        "command": "auto-yaformat.helloWorld",
-        "title": "Hello World"
+        "command": "auto-yaformat.formatFile",
+        "title": "Format file with ya tool tt format if file is in arcadia"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "auto-yaformat.formatFile",
+        "key": "ctrl+shift+1",
+        "mac": "cmd+shift+1",
+        "when": "editorTextFocus"
       }
     ]
   },
